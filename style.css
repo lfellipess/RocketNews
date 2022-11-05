@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+#info-screen {
+    width: 50vw;
+    height: 100vh;
+    background-color: #121214;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#img-container {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#logo {
+    width: 389px;
+    height: 94px;
+    margin-bottom: 92px;
+}
+
+#text-info {
+    width: 647px;
+    height: 102px;
+    padding-right: 37px;
+}
+
+#text-info h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #08C05E;
+}
+
+#text-1 {
+    margin-top: 8px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+#text-2 {
+    margin-top: 8px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#info-screen form {
+    width: 798px;
+    height: 84px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#info-screen form label {
+    display: block;
+    margin-bottom: 17px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 139%;
+    color: #A8A8A8;
+}
+
+#info-screen form div {
+    display: flex;
+    width: 798px;
+    height: 48px;
+}
+
+#email {
+    position: relative;
+    width: 746px;
+    height: 48px;
+    padding-left: 15px;
+
+    border-left: 5px solid #04D361;
+}
+
+#info-screen form button {
+    position: relative;
+    width: 48px;
+    height: 48px;
+
+    border: 0.1px solid #8257E5;
+
+    background-color: #8257E5;
+    background-image: url(./assets/send.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#info-screen a {
+    display: flex;
+    width: 196px;
+    height: 24px;
+
+    align-items: center;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 139%;
+    color: #8257E5;
+    text-decoration: none;
+}
